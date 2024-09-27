@@ -8,7 +8,8 @@ references:
   - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4625 
   - https://www.elastic.co/guide/en/security/8.15/prebuilt-rule-8-3-2-multiple-logon-failure-followed-by-logon-success.html
 tags:
-  - disk.capacity
+  - attack.credential-access
+  - attack.t1110
 logsource:
   category: authentication
   product: windows
